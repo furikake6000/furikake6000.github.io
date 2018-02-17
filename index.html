@@ -7,35 +7,107 @@
 
     <!-- Font awesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="custom.css">
   </head>
 
   <body>
     <div class="container">
-      <p>ここはふりかけのページです</p>
-      <div class="row">
-        <h2 class="rowtitle"><i class="far fa-comment-alt"></i> introduction</h5>
-        <p>
-          ふりかけと申します。<br/>
-          ゲーム制作とかWebサービス開発に興味があります。<br/>
-          こぢんまりやっています。<br/>
-          よろしくお願いします。
-        </p>
-      </div>
-      <div class="row">
-        <h2 class="rowtitle"><i class="far fa-user"></i> profile</h5>
-        <table class="table4">
-          <tr><td>名前</td><td>ふりかけ</td></tr>
-          <tr><td>Twitter</td><td>@furikake555</td></tr>
-          <tr><td>趣味</td><td>ゲーム, 散歩, 制作, おえかき, VTuberを見る</td></tr>
-          <tr><td>すきなゲーム</td><td>Planet Coaster, splatoon, Stellaris, 伝説のスタフィー...etc</td></tr>
-          <tr><td>おきにいりツール</td><td>Unity, Rails</td></tr>
-        </table>
-      </div>
-      <div class="row">
-        <h2 class="rowtitle"><i class="fas fa-link"></i> links</h5>
-
+      <div class="mainarea">
+        <div class="chapter">
+          <h2><i class="far fa-comment-alt"></i> introduction</h5>
+          <p>
+            ふりかけと申します。<br/>
+            ゲーム制作とかWebサービス開発に興味があります。<br/>
+            こぢんまりやっています。<br/>
+            よろしくお願いします。
+          </p>
+        </div>
+        <div class="chapter">
+          <h2><i class="far fa-user"></i> profile</h5>
+          <table class="table4">
+            <tr><td>名前</td><td>ふりかけ</td></tr>
+            <tr><td>Twitter</td><td><a href="https://twitter.com/furikake555">@furikake555</a></td></tr>
+            <tr><td>趣味</td><td>ゲーム, 散歩, 制作, おえかき, VTuberを見る</td></tr>
+            <tr><td>すきなゲーム</td><td>Planet Coaster, splatoon, Stellaris, 伝説のスタフィー...etc</td></tr>
+            <tr><td>おきにいりツール</td><td>Unity, Rails</td></tr>
+          </table>
+        </div>
+        <div class="chapter">
+          <h2><i class="far fa-star fa-spin"></i> products</h5>
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="images/spyfromf.png" alt="F国からのスパイ">
+              <div class="card-body">
+                <a href="https://spyfromf.nc2.co">
+                  <h5 class="card-title">F国からのスパイ</h5>
+                </a>
+                <p class="card-text">Twitterと連携した言葉遊びゲームです。Railsを用いて作成しました。</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/shinchoku.png" alt="進捗ノート">
+              <div class="card-body">
+                <h5 class="card-title">進捗ノート</h5>
+                <p class="card-text"><small class="text-muted">鋭意製作中</small></p>
+                <p class="card-text">自分の「進捗」を載せてみんなから「進捗どうですか」を集めるツールです。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chapter">
+          <h2><i class="fas fa-link"></i> links</h5>
+          <div class="card-columns">
+            <div class="card">
+              <div class="card-body">
+                <a href="https://twitter.com/furikake555">
+                  <h5 class="card-title"><i class="fab fa-twitter"></i> Twitter</h5>
+                </a>
+                <p class="card-text">Twitterやってます。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <a href="https://odaibako.net/u/furikake555">
+                  <h5 class="card-title">お題箱</h5>
+                </a>
+                <p class="card-text">リクエスト・ご注文・ご質問お待ちしております。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <a href="https://github.com/furikake6000">
+                  <h5 class="card-title"><i class="fab fa-github-alt"></i> Github</h5>
+                </a>
+                <p class="card-text">ぎっとぎとです。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <a href="http://furipro.blog.fc2.com/">
+                  <h5 class="card-title"><i class="fas fa-pencil-alt"></i> ブログ</h5>
+                </a>
+                <p class="card-text">更新しなければ...</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <a href="https://monappy.jp/u/furikake555/">
+                  <h5 class="card-title">Monappy</h5>
+                </a>
+                <p class="card-text">投げ銭くれたらすっごいうれしいです。</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

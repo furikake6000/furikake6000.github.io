@@ -3,10 +3,16 @@ body {
 }
 
 .container {
-  max-width: 600px;
-  margin: auto;
-  padding: 30px 10px;
   background-color: #FCF9F4;
+}
+
+.mainarea {
+  margin: 30px 10px;
+  padding: 30px 10px;
+}
+
+.chapter {
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -15,4 +21,10 @@ h2 {
 
 table {
   border: none;
+}
+
+@media (min-width: 575px) and (max-width: 991px) {
+  .card-columns {
+    column-count: 2;
+  }
 }
