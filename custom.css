@@ -1,9 +1,10 @@
 body {
-  background-color: #EA7659;
+  background-color: #FFC97C;
 }
 
 .container {
   width: 600px;
   margin: auto;
+  padding: 30px 10px;
   background-color: #FCF9F4;
 }
