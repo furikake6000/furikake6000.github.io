@@ -3,8 +3,16 @@ body {
 }
 
 .container {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
   padding: 30px 10px;
   background-color: #FCF9F4;
+}
+
+h2 {
+  color: #EA7659;
+}
+
+table {
+  border: none;
 }
